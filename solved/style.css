@@ -1,0 +1,160 @@
+body {
+    height: 98vh;
+    display: grid;
+    grid-template-rows: 50px  1fr;
+    grid-template-columns: 1fr;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px; 
+  }
+  
+  main {
+    grid-row: span 1;
+    grid-column: span 1;
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    color: white; 
+    
+  }
+  
+  header {
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  
+  .one {
+    background-image: url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p3_mobile.png);
+    grid-row: span 2;
+    grid-column: span 2;
+    background-position:center;
+    background-size:cover;
+  
+  }
+  
+  .two {
+    background-image: url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p2_mobile.png);
+    grid-row: span 2;
+    grid-column: span 1;
+    background-position:center;
+    background-size:cover;
+  }
+  
+  .three {
+    background-image: url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p1_mobile.png);
+    grid-row: span 2;
+    grid-column: span 1;
+    background-position:center;
+    background-size:cover;
+  }
+  
+  .four {
+    background-image: url(assets/Screen\ Shot\ 2018-08-31\ at\ 9.49.18\ PM.png);
+    grid-row: span 2;
+    grid-column: span 2;
+    object-fit: center;
+  }
+  
+  .five {
+    background-image: url(https://picsum.photos/850/650);
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  
+  .six {
+    background-image: url(https://picsum.photos/750/650);
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  
+  .box{
+    height: 100%;
+    background-color: #666;
+    background-blend-mode: multiply;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 1s;
+  }
+  .box:hover {
+    background-color: transparent;
+  }
+  @media only screen and (min-width: 600px) {
+  
+    main {
+      grid-row: span 1;
+      grid-column: span 1;
+      display: grid;
+      height: 100%;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-columns: repeat(7, 1fr);
+      grid-gap: 10px;
+      color: white;
+      
+    }
+    
+    .box{
+      height: 100%;
+      background-color: #666;
+      background-blend-mode: multiply;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 1s;
+    }
+    
+    .box:hover {
+      background-color: transparent;
+    }
+    
+    header {
+      grid-row: span 1;
+      grid-column: span 1;
+      padding: 5px;
+      font-weight: 500;
+    }
+    
+    .one {
+      background-image:url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p3_desktop.png);
+      grid-row: span 4;
+      grid-column: span 3;
+      object-fit: cover;
+    }
+    
+    .two {
+      background-image: url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p2_desktop.png);
+      grid-row: span 2;
+      grid-column: span 4;
+      object-fit: cover;
+    }
+    
+    .three {
+      background-image: url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p1_desktop.png);
+      grid-row: span 2;
+      grid-column: span 2;
+      object-fit: cover;
+    }
+    
+    .four {
+      background-image: url(assets/Screen\ Shot\ 2018-08-31\ at\ 9.49.18\ PM.png);
+      grid-row: span 4;
+      grid-column: span 2;
+      object-fit: center;
+    }
+
+    .five {
+      background-image: url(https://picsum.photos/850/650);
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    
+    .six {
+      background-image: url(https://picsum.photos/750/650);
+      grid-row: span 2;
+      grid-column: span 3;
+    }
+  
+  } 
