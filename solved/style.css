@@ -12,7 +12,7 @@ body {
     grid-column: span 1;
     display: grid;
     height: 100%;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     color: white; 
@@ -25,8 +25,8 @@ body {
   }
   
   .one {
-    background-image: url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p3_mobile.png);
-    grid-row: span 2;
+    background-image: url(assets/p3_mobile.png);
+    grid-row: span 1;
     grid-column: span 2;
     background-position:center;
     background-size:cover;
@@ -34,16 +34,16 @@ body {
   }
   
   .two {
-    background-image: url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p2_mobile.png);
-    grid-row: span 2;
+    background-image: url(assets/p2_mobile.png);
+    grid-row: span 1;
     grid-column: span 1;
     background-position:center;
     background-size:cover;
   }
   
   .three {
-    background-image: url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p1_mobile.png);
-    grid-row: span 2;
+    background-image: url(assets/p1_mobile.png);
+    grid-row: span 1;
     grid-column: span 1;
     background-position:center;
     background-size:cover;
@@ -51,7 +51,7 @@ body {
   
   .four {
     background-image: url(assets/Screen\ Shot\ 2018-08-31\ at\ 9.49.18\ PM.png);
-    grid-row: span 2;
+    grid-row: span 1;
     grid-column: span 2;
     object-fit: center;
   }
@@ -118,21 +118,21 @@ body {
     }
     
     .one {
-      background-image:url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p3_desktop.png);
+      background-image:url(assets/p3_desktop.png);
       grid-row: span 4;
       grid-column: span 3;
       object-fit: cover;
     }
     
     .two {
-      background-image: url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p2_desktop.png);
+      background-image: url(assets/p2_desktop.png);
       grid-row: span 2;
       grid-column: span 4;
       object-fit: cover;
     }
     
     .three {
-      background-image: url(/Users/vblaha/bc/homework/04-unit/site_portfolio/assets/p1_desktop.png);
+      background-image: url(assets/p1_desktop.png);
       grid-row: span 2;
       grid-column: span 2;
       object-fit: cover;
