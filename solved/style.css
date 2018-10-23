@@ -50,20 +50,20 @@ body {
   }
   
   .four {
-    background-image: url(assets/Screen\ Shot\ 2018-08-31\ at\ 9.49.18\ PM.png);
+    background-image: url(https://todomong.herokuapp.com/);
     grid-row: span 1;
     grid-column: span 2;
     object-fit: center;
   }
   
   .five {
-    background-image: url(https://picsum.photos/850/650);
+    background-image: url(assets/twitter.png);
     grid-row: span 1;
     grid-column: span 1;
   }
   
   .six {
-    background-image: url(https://picsum.photos/750/650);
+    background-image: url(assets/simplicity.png);
     grid-row: span 1;
     grid-column: span 1;
   }
@@ -139,22 +139,24 @@ body {
     }
     
     .four {
-      background-image: url(assets/Screen\ Shot\ 2018-08-31\ at\ 9.49.18\ PM.png);
+      background-image: url(assets/Todolist.png);
       grid-row: span 4;
       grid-column: span 2;
       object-fit: center;
     }
 
     .five {
-      background-image: url(https://picsum.photos/850/650);
+      background-image: url(assets/twitter.png);
       grid-row: span 2;
       grid-column: span 2;
+      object-fit: ;
     }
     
     .six {
-      background-image: url(https://picsum.photos/750/650);
+      background-image: url(assets/simplicity.png);
       grid-row: span 2;
       grid-column: span 3;
+      object-fit: cover;
     }
   
   } 
